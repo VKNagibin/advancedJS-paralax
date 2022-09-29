@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>parallaxEffect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root">
+        <div class="squaresBlock">
+            <div class="squaresWrapper">
+                <div id="firstSquare">1</div>
+                <div id="secondSquare">2</div>
+            </div>
+        </div>
+        <div>
+            <div class="inputWrapper">
+                <h4>Выберите квадрат для которого хотите загрузить изображение</h4>
+                <div>
+                    <input type="radio" id="firstSquareRadio" name="squareId" value="firstSquare" checked>
+                    <label for="firstSquareRadio">Первый</label>
+                </div>
+                <div>
+                    <input type="radio" id="secondSquareRadio" name="squareId" value="secondSquare">
+                    <label for="secondSquareRadio">Второй</label>
+                </div>
+                <input type="file" class="file-input">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

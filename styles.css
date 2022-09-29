@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    height: 100vh;
+}
+
+.root > div {
+    flex: 1;
+}
+
+.squaresBlock {
+    overflow: auto;
+}
+
+.squaresWrapper {
+    height: 12000px;
+}
+
+.inputWrapper {
+    padding: 25px
+}
+
+.inputWrapper > * {
+    margin: 15px 0;
+}
+
+#firstSquare,
+#secondSquare {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 1rem;
+    top: 0;
+    left: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+#secondSquare {
+    left: 175px;
+}
